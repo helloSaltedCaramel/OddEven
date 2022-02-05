@@ -16,49 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="vpl-j0-j7q">
-                                <rect key="frame" x="10" y="319" width="394" height="258.5"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="computer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mwe-0E-GTv">
-                                        <rect key="frame" x="0.0" y="0.0" width="394" height="20.5"/>
-                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="남은 구슬갯수 : 10개" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o0t-e1-A1d">
-                                        <rect key="frame" x="0.0" y="59.5" width="394" height="20.5"/>
-                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="결과화면" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVZ-Us-9Ee">
-                                        <rect key="frame" x="0.0" y="119" width="394" height="20.5"/>
-                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="남은 구슬갯수 : 10개" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICB-lZ-lll">
-                                        <rect key="frame" x="0.0" y="178.5" width="394" height="20.5"/>
-                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MqT-gh-mWo">
-                                        <rect key="frame" x="0.0" y="238" width="394" height="20.5"/>
-                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="yEz-s5-zXd"/>
-                                </constraints>
-                            </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4w-ed-hSk">
                                 <rect key="frame" x="0.0" y="812" width="414" height="50"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
@@ -71,21 +28,62 @@
                                     <action selector="gameStartPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9DG-Hh-JvP"/>
                                 </connections>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="SUv-1B-c7E">
+                                <rect key="frame" x="10" y="325" width="394" height="246.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="computer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mwe-0E-GTv">
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="20.5"/>
+                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="남은 구슬갯수 : 10개" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o0t-e1-A1d">
+                                        <rect key="frame" x="0.0" y="56.5" width="394" height="20.5"/>
+                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="결과화면" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVZ-Us-9Ee">
+                                        <rect key="frame" x="0.0" y="113" width="394" height="20.5"/>
+                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="남은 구슬갯수 : 10개" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICB-lZ-lll">
+                                        <rect key="frame" x="0.0" y="169.5" width="394" height="20.5"/>
+                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MqT-gh-mWo">
+                                        <rect key="frame" x="0.0" y="226" width="394" height="20.5"/>
+                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="SUv-1B-c7E" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="D21-mK-h1N"/>
+                            <constraint firstItem="SUv-1B-c7E" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Dr0-Rb-v3H"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="x4w-ed-hSk" secondAttribute="bottom" id="Jk7-Tf-3qs"/>
-                            <constraint firstItem="vpl-j0-j7q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kya-bx-A6n"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vpl-j0-j7q" secondAttribute="trailing" constant="10" id="UBl-Tt-0el"/>
+                            <constraint firstItem="SUv-1B-c7E" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="SKX-Lk-p3k"/>
                             <constraint firstItem="x4w-ed-hSk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="f6W-yb-osb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SUv-1B-c7E" secondAttribute="trailing" constant="10" id="hq9-Vh-6zn"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="x4w-ed-hSk" secondAttribute="trailing" id="roa-EH-cWM"/>
-                            <constraint firstItem="vpl-j0-j7q" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sVo-qt-IU9"/>
-                            <constraint firstItem="vpl-j0-j7q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="z2i-8h-VBJ"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="computerBallCountLbl" destination="o0t-e1-A1d" id="ssb-67-jbG"/>
+                        <outlet property="resultLbl" destination="hVZ-Us-9Ee" id="j1s-Yp-3ZM"/>
                         <outlet property="userBallCountLbl" destination="ICB-lZ-lll" id="sK1-Wz-Mul"/>
                     </connections>
                 </viewController>
